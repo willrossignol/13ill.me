@@ -1,4 +1,46 @@
 baseURL = 'http://13ill.me/'
 languageCode = 'en-us'
-title = 'Bill Rossignol'
-theme = 'ananke'
+theme = 'PaperMod'
+title = '13ill.me'
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[languages.en]
+languageName = "English"
+weight = 1
+[languages.en.taxonomies]
+category = "categories"
+tag = "tags"
+[[languages.en.menu.main]]
+name = "Blog"
+url = "blog"
+weight = 5
+[[languages.en.menu.main]]
+name = "Search"
+url = "search"
+weight = 10
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags"
+weigth = 10
+
+[params]
+author = "Bill Rossignol"
+description = "Personal Blog Website"
+socialIcons = [{name = 'Github', url = "https://github.com/willrossignol"}]
+[params.profileMode]
+enabled = true
+subtitle = "Developer @ *[Picketa Systems](https://picketa.com)* // Music and racing enthusiast"
+title = "Bill Rossignol"
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/blog"
+[params.fuseOpts]
+distance = 1000
+isCaseSensitive = false
+keys = ["title", "permalink", "summary", "content"]
+location = 0
+minMatchCharLength = 0
+shouldSort = true
+threshold = 0.4
