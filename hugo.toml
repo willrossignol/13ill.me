@@ -1,0 +1,4 @@
+baseURL = 'http://13ill.me/'
+languageCode = 'en-us'
+title = 'Bill Rossignol'
+theme = 'ananke'
