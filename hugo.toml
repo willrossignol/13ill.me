@@ -44,3 +44,7 @@ location = 0
 minMatchCharLength = 0
 shouldSort = true
 threshold = 0.4
+
+[caches]
+    [caches.images]
+        dir = ":cacheDir/images"
