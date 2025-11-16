@@ -22,7 +22,11 @@ weight = 10
 [[languages.en.menu.main]]
 name = "Tags"
 url = "tags"
-weigth = 10
+weight = 15
+[[languages.en.menu.main]]
+name = "Cool Stuff"
+url = "cool-stuff"
+weight = 20
 
 [params]
 author = "Bill Rossignol"
@@ -30,7 +34,7 @@ description = "Personal Blog Website"
 socialIcons = [{name = 'Github', url = "https://github.com/willrossignol"}]
 [params.profileMode]
 enabled = true
-subtitle = "Developer @ *[Picketa Systems](https://picketa.com)* // Music and racing enthusiast"
+subtitle = "Developer @ *[Picketa Systems](https://picketa.com)* // Music and tech enthusiast"
 title = "Bill Rossignol"
 [[params.profileMode.buttons]]
 name = "Blog"
