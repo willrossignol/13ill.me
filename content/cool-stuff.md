@@ -1,6 +1,5 @@
 ---
 title: "Cool Stuff"
-url: "/cool-stuff/"
 summary: "People and artists I know and like"
 ---
 

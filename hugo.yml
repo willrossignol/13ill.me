@@ -1,0 +1,84 @@
+title: 13ill.me
+theme: PaperMod
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+    menu:
+      main:
+        - name: Blog
+          url: blog/
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 15
+        - name: Cool Stuff
+          url: cool-stuff/
+          weight: 20
+  fr:
+    languageName: ":fr:"
+    weigth: 2
+    taxonomies:
+      category: frcategories
+      tag: frtags
+    menu:
+      main:
+        - name: Blogue
+          url: blog/
+          weight: 5
+        - name: Rechercher
+          url: search/
+          weight: 10
+        - name: Balises
+          url: frtags/
+          weight: 15
+        - name: Stuff Cool
+          url: cool-stuff/
+          weight: 20
+    params:
+      languageAltTitle: French
+      profileMode:
+        subtitle: Enthousiate de musqiue et de technologie // Dévelopeur @ *[Picketa Systems](https://picketa.com)*
+        buttons:
+          - name: Blogue
+            url: blog/
+
+
+params:
+  author: Bill Rossignol
+  description: Personal Blog
+  socialIcons:
+    - name: Github
+      url: https://github.com/willrossignol
+  profileMode:
+    enabled: true
+    subtitle: Music and tech enthusiast // Developer @ *[Picketa Systems](https://picketa.com)*
+    title: Bill Rossignol
+    buttons:
+      - name: Blog
+        url: blog
+  fuseOpts:
+    distance: 1000
+    isCaseSensitive: false
+    keys: ["title", "permalink", "summary", "content"]
+    lcoation: 0
+    minMatchCharLength: 0
+    shouldSort: true
+    threshold: 0.4
+
+caches:
+  images:
+    dir: ":cacheDir/images"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
