@@ -21,7 +21,7 @@ languages:
           weight: 15
         - name: Cool Stuff
           url: cool-stuff/
-          weight: 25
+          weight: 20
 
 params:
   author: Bill Rossignol
