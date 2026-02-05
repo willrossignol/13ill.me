@@ -1,3 +1,66 @@
-.current {
-  color: green;
+// Colors
+$primary-color: #f5f4ed;
+$secondary-color: #ececdc;
+$ternary-color: #a0c9cb;
+$accent-color: #ff6037;
+$secondary-background-color: #733635;
+$backgroud-color: #351e1c;
+
+// Fonts
+@import 'https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'; // Montserrat (Sans Serif) & Crimson Text (Serif)
+
+// Styling
+body {
+  padding: 5mm;
+  background-color: $backgroud-color;
+  color: $primary-color;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: $accent-color;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+blockquote {
+  display: inline-block;
+  padding: 5px;
+  background-color: $secondary-background-color;
+}
+
+a {
+  color: $secondary-color;
+}
+
+a:active {
+  color: $ternary-color;
+}
+
+/**
+* Navigation
+**/
+
+nav a {
+  color: $primary-color;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding-right: 5mm;
+}
+
+nav a.current {
+  color: $ternary-color;
 }
