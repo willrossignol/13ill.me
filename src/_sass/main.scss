@@ -35,9 +35,13 @@ h2 {
 }
 
 blockquote {
-  display: inline-block;
-  padding: 5px;
   background-color: $secondary-background-color;
+  border: 4px solid $accent-color;
+  border-style: outset;
+  border-radius: 8px;
+  display: inline-block;
+  padding-left: 16px;
+  padding-right: 8px;
 }
 
 a {
@@ -52,6 +56,7 @@ a:active {
 * Navigation
 **/
 
+
 nav a {
   color: $primary-color;
   font-family: "Montserrat", sans-serif;
@@ -63,4 +68,19 @@ nav a {
 
 nav a.current {
   color: $ternary-color;
+}
+
+/**
+* Posts
+**/
+
+div.post {
+  padding-top: 10px;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+div.post img {
+  max-width: 50vw;
+  max-height: 50vh;
 }
