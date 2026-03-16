@@ -1,87 +1,145 @@
-- name: The Melodic Blue
-  artist: Baby Keem
-  link:
-- name: Forever Howlong
-  artist: Black Country, New Road
-  link:
-- name: Colter Wall
-  artist: Colter Wall
-  link:
-- name: Never Enough
-  artist: Daniel Caesar
-  link:
-- name: Baby
-  artist: Dijon
+- artist: Baby Keem
+  colour: '#5b5d62'
+  image: baby_keem-melodic_blue.jpg
+  link: null
+  name: The Melodic Blue
+- artist: Black Country, New Road
+  colour: '#d75547'
+  image: bcnr-forever_howlong.jpg
+  link: null
+  name: Forever Howlong
+- artist: Colter Wall
+  colour: '#81807a'
+  image: colter_wall.jpg
+  link: null
+  name: Colter Wall
+- artist: Daniel Caesar
+  colour: '#171b64'
+  image: daniel_caesar-never_enough.jpg
+  link: null
+  name: Never Enough
+- artist: Dijon
+  colour: '#404040'
+  image: dijon-baby.jpg
   link: https://www.dijondijon.com/
-- name: Plastic Beach
-  artist: Gorillaz
-  link:
-- name: Forward
-  artist: Jordan Ward
-  link:
-- name: Isolation
-  artist: Kali Uchis
-  link:
-- name: Louie
-  artist: Kenny Beats
-  link:
-- name: In the Court of the Crimson King
-  artist: King Crimson
-  link:
-- name: Le cirque des mal-aimés
-  artist: La patente
-  link:
-- name: Sometimes I Might Be Introvert
-  artist: Little Simz
-  link:
-- name: No Pressure
-  artist: Logic
-  link:
-- name: Circles
-  artist: Mac Miller
-  link:
-- name: Stankonia
-  artist: Outkast
-  link:
-- name: Fear of a Black Planet
-  artist: Public Enemy
-  link:
-- name: Lahai
-  artist: Sampha
-  link:
-- name: Process
-  artist: Sampha
-  link:
-- name: The SteelDrivers
-  artist: The SteelDrivers
-  link:
-- name: Thee Sacred Souls
-  artist: Thee Sacred Souls
-  link:
-- name: Never Enough
-  artist: Turnstile
-  link:
-- name: Live on Read Barnd Radio I & II
-  artist: Tyler Childers
-  link:
-- name: Chromakopia
-  artist: Tyler, the Creator
-  link:
-- name: Call Me If You Get Lost
-  artist: Tyler, the Creator
-  link:
-- name: Igor
-  artist: Tyler, the Creator
-  link:
-- name: Flower Boy
-  artist: Tyler, the Creator
-  link:
-- name: Cherry Bomb
-  artist: Tyler, the Creator
-  link:
-- name: Wolf
-  artist: Tyler, the Creator
-  link:
-- name: Goblin
-  artist: Tyler, the Creator
-  link:
+  name: Baby
+- artist: Gorillaz
+  colour: '#895635'
+  image: gorillaz-plastic_beach.jpg
+  link: null
+  name: Plastic Beach
+- artist: Jordan Ward
+  colour: '#516369'
+  image: jordan_ward-forward.jpg
+  link: null
+  name: Forward
+- artist: Kali Uchis
+  colour: '#383453'
+  image: kali_uchis-isolation.jpg
+  link: null
+  name: Isolation
+- artist: Kenny Beats
+  colour: '#afaa96'
+  image: kenny_beats-louie.jpg
+  link: null
+  name: Louie
+- artist: King Crimson
+  colour: '#ab818e'
+  image: king_crimson-in_the_court.jpg
+  link: null
+  name: In the Court of the Crimson King
+- artist: La patente
+  colour: '#405453'
+  image: la_patente-le_cirque.jpg
+  link: null
+  name: "Le cirque des mal-aim\xE9s"
+- artist: Little Simz
+  colour: '#875404'
+  image: little_simz-simbi.jpg
+  link: null
+  name: Sometimes I Might Be Introvert
+- artist: Logic
+  colour: '#7b4319'
+  image: logic-no_pressure.jpg
+  link: null
+  name: No Pressure
+- artist: Mac Miller
+  colour: '#cfcfcf'
+  image: mac_miller-circles.jpg
+  link: null
+  name: Circles
+- artist: Outkast
+  colour: '#827873'
+  image: outkast-stankonia.jpg
+  link: null
+  name: Stankonia
+- artist: Public Enemy
+  colour: '#444653'
+  image: public_enemy-foabp.jpg
+  link: null
+  name: Fear of a Black Planet
+- artist: Sampha
+  colour: '#adaa95'
+  image: sampha-lahai.jpg
+  link: null
+  name: Lahai
+- artist: Sampha
+  colour: '#b3ada0'
+  image: sampha-process.jpg
+  link: null
+  name: Process
+- artist: The SteelDrivers
+  colour: '#161516'
+  image: the_steeldrivers.jpg
+  link: null
+  name: The SteelDrivers
+- artist: Thee Sacred Souls
+  colour: '#856e47'
+  image: thee_sacred_souls.jpg
+  link: null
+  name: Thee Sacred Souls
+- artist: Turnstile
+  colour: '#b8d4ee'
+  image: turnstile-never_enough.jpg
+  link: null
+  name: Never Enough
+- artist: Tyler Childers
+  colour: '#34120c'
+  image: tyler_childers-live_on_red_barn.jpg
+  link: null
+  name: Live on Red Barn Radio I & II
+- artist: Tyler, the Creator
+  colour: '#4b4a41'
+  image: tyler-chromakopia.jpg
+  link: null
+  name: Chromakopia
+- artist: Tyler, the Creator
+  colour: '#e9eee7'
+  image: tyler-cmiygl.jpg
+  link: null
+  name: Call Me If You Get Lost
+- artist: Tyler, the Creator
+  colour: '#a17e88'
+  image: tyler-igor.jpg
+  link: null
+  name: Igor
+- artist: Tyler, the Creator
+  colour: '#b27534'
+  image: tyler-flower_boy.jpg
+  link: null
+  name: Flower Boy
+- artist: Tyler, the Creator
+  colour: '#807c77'
+  image: tyler-cherry_bomb.jpg
+  link: null
+  name: Cherry Bomb
+- artist: Tyler, the Creator
+  colour: '#89a3a1'
+  image: tyler-wolf.jpg
+  link: null
+  name: Wolf
+- artist: Tyler, the Creator
+  colour: '#487670'
+  image: tyler-goblin.jpg
+  link: null
+  name: Goblin

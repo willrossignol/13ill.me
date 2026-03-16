@@ -2,45 +2,6 @@
 title: Home
 ---
 
-<h1>Bill Rossignol</h1>
-<section>
-  <h2><a href="./blog.html">Blog</a></h2>
+<h1>bill rossignol</h1>
 
-  <p>Latest posts:</p>
-  <ul>
-    {% for post in site.posts limit: 3 %}
-    <li>
-      <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-      {{ post.excerpt }}
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-
-<section>
-  <h2>Vinyl collection</h2>
-
-  <p>
-    I've always enjoyed music as it's helped me to get through som hard times in
-    my life.
-  </p>
-  <p>
-    When I got my first car, I started buying some CDs that I could play in my
-    car, even if I had a streaming service I could find that music on. I liked
-    the idea of physical media and had grown up listening to CDs with my mom and
-    dad during car rides (I remember clearly listening to Alexandre Poulin with
-    my mom and AC/DC with my dad).
-  </p>
-  <p>
-    After a while, I started getting into vinyls. I was buying vinyls even
-    before I had a record player. I liked to have these big square cover arts
-    displayed in my room. Nowadays, I've always got a record ready to go in my
-    record player with its cover art on display in my living room.
-  </p>
-
-  <div>
-    {% for vinyl in site.data.vinyls %}
-    <p><a href="{{ vinyl.link }}">{{ vinyl.name }} by {{ vinyl.artist }}</a></p>
-    {% endfor %}
-  </div>
-</section>
+<p>allo!</p>

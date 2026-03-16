@@ -1,8 +1,17 @@
-- name: Home
+- name: 13ill
+  list: false
   link: /
-- name: Blog
-  link: /blog.html
-- name: Tags
-  link: /tags.html
-- name: Cool Stuff
-  link: /cool-stuff.html
+- name: life
+  list: false
+  link: /life.html
+- name: movement
+  list: false
+  link: /movement.html
+- name: arts
+  list: true
+  dir: /arts
+  items:
+    - name: vinyl collection
+      link: /vinyl-collection.html
+    - name: cool stuff
+      link: /cool-stuff.html
