@@ -1,0 +1,18 @@
+<nav>
+  {% for item in site.data.navigation %}
+    {% if item.list %}
+      <input id="collapsible" class="toggle" type="checkbox" {% if page.url contains item.dir %} checked {% endif %}>
+      <label for="collapsible" class="lbl-toggle {% if page.url contains item.dir %} current {% endif %}">{{item.name}}</label>
+      <div class="collapsible-content">
+        {% for subitem in item.items %}
+        {% assign link_url = item.dir | append: subitem.link %}
+          <a href="{{link_url}}" {% if page.url == link_url %} class="current"{% endif %}>{{subitem.name}}</a>
+        {% endfor %}
+      </div>
+    {% else %}
+      <a href="{{ item.link }}" {% if page.url==item.link %}class="current" {% endif %}>
+        {{ item.name }}
+      </a>
+    {% endif %}
+  {% endfor %}
+</nav>

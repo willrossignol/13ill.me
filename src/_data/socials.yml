@@ -1,0 +1,6 @@
+- name: Letterboxd
+  image: /assets/images/letterboxd-gradient.png
+  link: https://letterboxd.com/billross
+- name: Bandcamp
+  image: /assets/images/bandcamp.png
+  link: https://bandcamp.com/13illr

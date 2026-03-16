@@ -1,0 +1,17 @@
+- name: 13ill
+  list: false
+  link: /
+- name: life
+  list: false
+  link: /life.html
+- name: movement
+  list: false
+  link: /movement.html
+- name: arts
+  list: true
+  dir: /arts
+  items:
+    - name: vinyl collection
+      link: /vinyl-collection.html
+    - name: cool stuff
+      link: /cool-stuff.html

@@ -1,0 +1,27 @@
+---
+---
+<h1>Vinyl collection</h1>
+
+<p>
+  I've always enjoyed music as it's helped me to get through som hard times in
+  my life.
+</p>
+<p>
+  When I got my first car, I started buying some CDs that I could play in my
+  car, even if I had a streaming service I could find that music on. I liked the
+  idea of physical media and had grown up listening to CDs with my mom and dad
+  during car rides (I remember clearly listening to Alexandre Poulin with my mom
+  and AC/DC with my dad).
+</p>
+<p>
+  After a while, I started getting into vinyls. I was buying vinyls even before
+  I had a record player. I liked to have these big square cover arts displayed
+  in my room. Nowadays, I've always got a record ready to go in my record player
+  with its cover art on display in my living room.
+</p>
+
+<div>
+  {% for vinyl in site.data.vinyls %}
+  <p><a href="{{ vinyl.link }}">{{ vinyl.name }} by {{ vinyl.artist }}</a></p>
+  {% endfor %}
+</div>
