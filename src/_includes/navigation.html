@@ -1,4 +1,4 @@
-<nav>
+<div class="sidebar">
   {% for item in site.data.navigation %}
     {% if item.list %}
       <input id="collapsible" class="toggle" type="checkbox" {% if page.url contains item.dir %} checked {% endif %}>
@@ -15,4 +15,4 @@
       </a>
     {% endif %}
   {% endfor %}
-</nav>
+</div>

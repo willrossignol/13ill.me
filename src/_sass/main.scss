@@ -7,12 +7,10 @@ $secondary-background-color: #733635;
 $backgroud-color: #351e1c;
 
 // Fonts
-@import 'https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'; // Montserrat (Sans Serif) & Crimson Text (Serif)
+@import "https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"; // Montserrat (Sans Serif) & Crimson Text (Serif)
 
 // Styling
 body {
-  margin-left: 250px;
-  margin-right: 250px;
   padding: 20px;
   background-color: $backgroud-color;
   color: $primary-color;
@@ -56,63 +54,53 @@ a:active {
 
 /**
 * Navigation
+* Heavily inspired by https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp
 **/
 
-nav {
-  height: 100%; /* 100% Full-height */
-  width: 250px;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  // background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
-nav a {
-  color: $primary-color;
+.sidebar a {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500;
-  font-style: normal;
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
   display: block;
+  color: $primary-color;
+  padding: 16px;
+  text-decoration: none;
 }
 
-nav a.current {
+.sidebar a.current,
+.sidebar label.current {
   color: $ternary-color;
 }
 
-nav label {
-  color: $primary-color;
+.sidebar label {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500;
-  font-style: normal;
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
   display: block;
+  color: $primary-color;
+  padding: 16px;
+  text-decoration: none;
 }
 
-nav label.current {
-  color: $ternary-color;
-}
-
-nav input[type='checkbox'] {
+.sidebar input[type="checkbox"] {
   display: none;
 }
 
-nav .lbl-toggle {
+.sidebar .lbl-toggle {
   display: block;
   cursor: pointer;
   transition: all 0.25s ease-out;
 }
 
-nav .lbl-toggle::before {
-  content: ' ';
+.sidebar .lbl-toggle::before {
+  content: " ";
   display: inline-block;
 
   border-top: 5px solid transparent;
@@ -120,34 +108,59 @@ nav .lbl-toggle::before {
   border-left: 5px solid currentColor;
 
   vertical-align: middle;
-  margin-right: .7rem;
+  margin-right: 0.7rem;
   transform: translateY(-2px);
 
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
 }
 
-nav .collapsible-content {
+.sidebar .collapsible-content {
   max-height: 0px;
   overflow: hidden;
-  padding-left: 16px;
-  transition: max-height .25s ease-in-out;
+  transition: max-height 0.25s ease-in-out;
 }
 
-nav .toggle:checked + .lbl-toggle + .collapsible-content {
+.sidebar .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 100vh;
 }
 
-nav .toggle:checked + .lbl-toggle::before {
+.sidebar .toggle:checked + .lbl-toggle::before {
   transform: rotate(90deg) translateX(-3px);
 }
 
-nav .toggle:checked + .lbl-toggle {
+.sidebar .toggle:checked + .lbl-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-@media screen and (max-height: 450px) {
-  nav {padding-top: 15px;}
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a,
+  .sidebar label {
+    text-align: center;
+    float: none;
+  }
 }
 
 /**
