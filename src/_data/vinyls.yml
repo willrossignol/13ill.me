@@ -23,6 +23,11 @@
   image: dijon-baby.jpg
   link: https://www.dijondijon.com/
   name: Baby
+- artist: Geese
+  colour: '#000000'
+  image: nothing.jpg
+  link: null
+  name: Getting Killed
 - artist: Gorillaz
   colour: '#895635'
   image: gorillaz-plastic_beach.jpg
@@ -143,3 +148,8 @@
   image: tyler-goblin.jpg
   link: null
   name: Goblin
+- artist: Wednesday
+  colour: '#000000'
+  image: nothing.jpg
+  link: null
+  name: Bleeds
