@@ -167,7 +167,20 @@ div.content {
 * Posts
 **/
 
+div.post {
+	padding-bottom: 16px;
+}
+
 div.post img {
   max-width: 50vw;
   max-height: 50vh;
+}
+
+div.paragraph {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+div.paragraph p {
+	margin: 0;
 }
