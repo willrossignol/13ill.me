@@ -15,3 +15,6 @@
       link: /vinyl-collection.html
     - name: cool stuff
       link: /cool-stuff.html
+- name: tech
+  list: false
+  link: /tech.html
