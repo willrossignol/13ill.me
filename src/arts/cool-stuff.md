@@ -2,6 +2,10 @@
 title: "cool stuff"
 ---
 
+# friends on the web
+
+- [Invicta Fortis](https://invictafortis.net/)
+
 # music
 
 A mix of local artists and bigger artists that I enjoy
@@ -32,6 +36,6 @@ A mixed bag here. Cars, tech, politics, philosophy, video games, and more
 
 Some friends and other instagram accounts I found while doomscrolling
 
-- [capratcamera](https://www.instagram.com/capratcamera/)
+- [capratcamera](https://www.capratcamera.ca/)
 - [Geit Eero](https://www.instagram.com/geit.eero/)
 - [ponygirl](https://www.instagram.com/ponygirl_/)
