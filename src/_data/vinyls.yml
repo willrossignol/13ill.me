@@ -1,155 +1,94 @@
+---
 - artist: Baby Keem
-  colour: '#5b5d62'
-  image: baby_keem-melodic_blue.jpg
-  link: null
   name: The Melodic Blue
+  image_url: https://i.scdn.co/image/ab67616d00001e0235a8a0c8b82b525679eceda6
 - artist: Black Country, New Road
-  colour: '#d75547'
-  image: bcnr-forever_howlong.jpg
-  link: null
   name: Forever Howlong
+  image_url: https://i.scdn.co/image/ab67616d00001e02876f720551132b50c9232fad
 - artist: Colter Wall
-  colour: '#81807a'
-  image: colter_wall.jpg
-  link: null
   name: Colter Wall
+  image_url: https://i.scdn.co/image/ab67616d00001e0233a9bf581d86e303313771d6
 - artist: Daniel Caesar
-  colour: '#171b64'
-  image: daniel_caesar-never_enough.jpg
-  link: null
   name: Never Enough
+  image_url: https://i.scdn.co/image/ab67616d00001e027c68face1dc58127f3a7b1cc
 - artist: Dijon
-  colour: '#404040'
-  image: dijon-baby.jpg
-  link: https://www.dijondijon.com/
   name: Baby
+  image_url: https://i.scdn.co/image/ab67616d00001e02fd69099343fa7827e78cca4b
 - artist: Geese
-  colour: '#000000'
-  image: nothing.jpg
-  link: null
   name: Getting Killed
+  image_url: https://i.scdn.co/image/ab67616d00001e0245e82ae0372a50834825c018
 - artist: Gorillaz
-  colour: '#895635'
-  image: gorillaz-plastic_beach.jpg
-  link: null
   name: Plastic Beach
+  image_url: https://i.scdn.co/image/ab67616d00001e02661d019f34569f79eae9e985
 - artist: Jordan Ward
-  colour: '#516369'
-  image: jordan_ward-forward.jpg
-  link: null
   name: Forward
+  image_url: https://i.scdn.co/image/ab67616d00001e0217696caf00b6e0ac16cbbba4
 - artist: Kali Uchis
-  colour: '#383453'
-  image: kali_uchis-isolation.jpg
-  link: null
   name: Isolation
+  image_url: https://i.scdn.co/image/ab67616d00001e0290b4e1905b1fc48c537ec053
 - artist: Kenny Beats
-  colour: '#afaa96'
-  image: kenny_beats-louie.jpg
-  link: null
   name: Louie
+  image_url: https://i.scdn.co/image/ab67616d00001e02419c45440b96b77a96827db1
 - artist: King Crimson
-  colour: '#ab818e'
-  image: king_crimson-in_the_court.jpg
-  link: null
   name: In the Court of the Crimson King
+  image_url: https://i.scdn.co/image/ab67616d00001e02da7b326bd7ffa7b6b95b0660
 - artist: La patente
-  colour: '#405453'
-  image: la_patente-le_cirque.jpg
-  link: null
-  name: "Le cirque des mal-aim\xE9s"
+  name: Le cirque des mal-aimés
+  image_url: https://i.scdn.co/image/ab67616d00001e02829ae5b18f997689a2d621aa
 - artist: Little Simz
-  colour: '#875404'
-  image: little_simz-simbi.jpg
-  link: null
   name: Sometimes I Might Be Introvert
+  image_url: https://i.scdn.co/image/ab67616d00001e02aede85ed28c2237a33b63dba
 - artist: Logic
-  colour: '#7b4319'
-  image: logic-no_pressure.jpg
-  link: null
   name: No Pressure
+  image_url: https://i.scdn.co/image/ab67616d00001e021c76e29153f29cc1e1b2b434
 - artist: Mac Miller
-  colour: '#cfcfcf'
-  image: mac_miller-circles.jpg
-  link: null
   name: Circles
+  image_url: https://i.scdn.co/image/ab67616d00001e02d9d8f1a08476cd347fbea313
 - artist: Outkast
-  colour: '#827873'
-  image: outkast-stankonia.jpg
-  link: null
   name: Stankonia
+  image_url: https://i.scdn.co/image/ab67616d00001e022fb1d5ecf92758467683dabe
 - artist: Public Enemy
-  colour: '#444653'
-  image: public_enemy-foabp.jpg
-  link: null
   name: Fear of a Black Planet
+  image_url: https://i.scdn.co/image/ab67616d00001e022e3d1de8b2f61a477ae1ed6c
 - artist: Sampha
-  colour: '#adaa95'
-  image: sampha-lahai.jpg
-  link: null
   name: Lahai
+  image_url: https://i.scdn.co/image/ab67616d00001e02791bcfd8ae1149dbb2375991
 - artist: Sampha
-  colour: '#b3ada0'
-  image: sampha-process.jpg
-  link: null
   name: Process
+  image_url: https://i.scdn.co/image/ab67616d00001e02ab6b9fb78a5506e4b4d40429
 - artist: The SteelDrivers
-  colour: '#161516'
-  image: the_steeldrivers.jpg
-  link: null
   name: The SteelDrivers
+  image_url: https://i.scdn.co/image/ab67616d00001e022b7884e6aee93b07b5d76f07
 - artist: Thee Sacred Souls
-  colour: '#856e47'
-  image: thee_sacred_souls.jpg
-  link: null
   name: Thee Sacred Souls
+  image_url: https://i.scdn.co/image/ab67616d00001e024bc05e5b1e506a6acea17148
 - artist: Turnstile
-  colour: '#b8d4ee'
-  image: turnstile-never_enough.jpg
-  link: null
   name: Never Enough
+  image_url: https://i.scdn.co/image/ab67616d00001e02e6b88d3e4886ae3a17621c53
 - artist: Tyler Childers
-  colour: '#34120c'
-  image: tyler_childers-live_on_red_barn.jpg
-  link: null
   name: Live on Red Barn Radio I & II
+  image_url: https://i.scdn.co/image/ab67616d00001e029cbbbdd15ff65aaab9a611b0
 - artist: Tyler, the Creator
-  colour: '#4b4a41'
-  image: tyler-chromakopia.jpg
-  link: null
   name: Chromakopia
+  image_url: https://i.scdn.co/image/ab67616d00001e02084a94988541c2402615d014
 - artist: Tyler, the Creator
-  colour: '#e9eee7'
-  image: tyler-cmiygl.jpg
-  link: null
   name: Call Me If You Get Lost
+  image_url: https://i.scdn.co/image/ab67616d00001e02940aa635eea98719f6ca4ad9
 - artist: Tyler, the Creator
-  colour: '#a17e88'
-  image: tyler-igor.jpg
-  link: null
   name: Igor
+  image_url: https://i.scdn.co/image/ab67616d00001e0230a635de2bb0caa4e26f6abb
 - artist: Tyler, the Creator
-  colour: '#b27534'
-  image: tyler-flower_boy.jpg
-  link: null
   name: Flower Boy
+  image_url: https://i.scdn.co/image/ab67616d00001e028940ac99f49e44f59e6f7fb3
 - artist: Tyler, the Creator
-  colour: '#807c77'
-  image: tyler-cherry_bomb.jpg
-  link: null
   name: Cherry Bomb
+  image_url: https://i.scdn.co/image/ab67616d00001e02e4bf0d3d9e0224a30ca5f665
 - artist: Tyler, the Creator
-  colour: '#89a3a1'
-  image: tyler-wolf.jpg
-  link: null
   name: Wolf
+  image_url: https://i.scdn.co/image/ab67616d00001e02913f492347e1585748450855
 - artist: Tyler, the Creator
-  colour: '#487670'
-  image: tyler-goblin.jpg
-  link: null
   name: Goblin
+  image_url: https://i.scdn.co/image/ab67616d00001e025ea9799a88c0760ec03ac6b8
 - artist: Wednesday
-  colour: '#000000'
-  image: nothing.jpg
-  link: null
   name: Bleeds
+  image_url: https://i.scdn.co/image/ab67616d00001e0279cc56467c944a260be5c2a9

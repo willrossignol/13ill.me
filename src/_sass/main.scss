@@ -184,3 +184,12 @@ div.paragraph {
 div.paragraph p {
 	margin: 0;
 }
+
+div.collection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, min(var(--w-col), 100%))
+}
+
+div.collection div {
+  grid-area: 2/ 1/ span 1/ -1
+}

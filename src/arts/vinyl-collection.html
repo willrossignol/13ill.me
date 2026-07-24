@@ -21,8 +21,11 @@ title: vinyl collection
   with its cover art on display in my living room.
 </p>
 
-<div>
-  {% for vinyl in site.data.vinyls %}
-  <p><a href="{{ vinyl.link }}">{{ vinyl.name }} by {{ vinyl.artist }}</a></p>
-  {% endfor %}
+<div class="collection">
+  <div>
+    {% for vinyl in site.data.vinyls %}
+      <p>{{ vinyl.name }} by {{ vinyl.artist }}</p>
+      <img src="{{ vinyl.image_url }}"/>
+    {% endfor %}
+  </div>
 </div>
