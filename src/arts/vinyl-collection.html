@@ -22,10 +22,10 @@ title: vinyl collection
 </p>
 
 <div class="collection">
-  <div>
-    {% for vinyl in site.data.vinyls %}
+  {% for vinyl in site.data.vinyls %}
+    <div>
       <p>{{ vinyl.name }} by {{ vinyl.artist }}</p>
       <img src="{{ vinyl.image_url }}"/>
-    {% endfor %}
-  </div>
+    </div>
+  {% endfor %}
 </div>
