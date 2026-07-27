@@ -7,14 +7,10 @@
 - name: movement
   list: false
   link: /movement.html
-- name: arts
-  list: true
-  dir: /arts
-  items:
-    - name: vinyl collection
-      link: /vinyl-collection.html
-    - name: cool stuff
-      link: /cool-stuff.html
+- name: vinyl collection
+  link: /vinyl-collection.html
 - name: tech
   list: false
   link: /tech.html
+- name: cool stuff
+  link: /cool-stuff.html

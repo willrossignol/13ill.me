@@ -49,7 +49,7 @@ for i in 0...albums.length
   album = albums[i]
   puts "Fetching image URL for #{album['name']} by #{album['artist']}"
   data = spotify_api_search(album["name"], album["artist"], access_token)
-  image_url = data['albums']['items'][0]['images'][1]['url']
+  image_url = data['albums']['items'][0]['images'][2]['url']
   albums[i]["image_url"] = image_url
 end
 File.write(ARGV[0], albums.to_yaml)
