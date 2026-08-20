@@ -1,10 +1,10 @@
 // Colors
 $primary-color: #f5f4ed;
-$secondary-color: #ececdc;
-$ternary-color: #a0c9cb;
-$accent-color: #ff6037;
-$secondary-background-color: #733635;
-$backgroud-color: #351e1c;
+$secondary-color: #a6d49f;
+$ternary-color: #7EA094;
+$accent-color: #FF9147;
+$secondary-background-color: #19304d;
+$backgroud-color: #0F1D2E;
 
 // Fonts
 @import "https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"; // Montserrat (Sans Serif) & Crimson Text (Serif)
@@ -77,7 +77,7 @@ a:active {
 
 .sidebar a.current,
 .sidebar label.current {
-  color: $ternary-color;
+  color: $secondary-color;
 }
 
 .sidebar label {
@@ -133,7 +133,7 @@ a:active {
   border-bottom-left-radius: 0;
 }
 
-div.content {
+main.content {
   margin-left: 200px;
   padding: 1px 16px;
   height: 1000px;
@@ -149,7 +149,7 @@ div.content {
   .sidebar a {
     float: left;
   }
-  div.content {
+  main.content {
     margin-left: 0;
   }
 }
@@ -189,4 +189,12 @@ div.collection {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+}
+
+.container {
+  display: flex;
+}
+
+.container div {
+  margin-right: 20px;
 }

@@ -2,16 +2,16 @@
 title: tech
 ---
 
-# Gaming PC
+# gaming pc
 
 :::
 CPU: Intel i5-9600k
-GPU: NVIDIA RTX 2060 Super
+GPU: AMD RX 9070 
 RAM: 32GB DDR4
 Storage: 2TB SSD + 500GB SSD
 :::
 
-# Work Laptop
+# work laptop
 
 :::
 Asus Zephyrus G14
@@ -21,7 +21,7 @@ RAM: 40GB DDR4
 Storage: 512GB SSD
 :::
 
-# Personal Latpop
+# personal laptop
 
 :::
 Apple Macbook Air 13-inch
@@ -30,7 +30,7 @@ RAM: 16GB
 Storage: 512GB SSD
 :::
 
-# Home Server
+# home server
 
 :::
 Dell Optiplex 3010
@@ -39,12 +39,12 @@ RAM: 16GB DDR3
 Storage: 4TB HDD + 3TB Partial Backup HDD
 :::
 
-# Homelab Candidates
+# homelab candidates
 
 :::
 Dell Inspiron 5770
 CPU: Intel i7-8550U
-RAM: 8GB DDR4
+RAM: 16GB DDR4
 Storage: 128GB SSD + 1TB HDD
 :::
 
@@ -61,3 +61,7 @@ CPU: Intel Celeron N3060
 RAM: 4GB DDR3L
 Storage: 32GB eMMC
 :::
+
+# rogue hardware
+
+- Nvidia RTX 2060 Super

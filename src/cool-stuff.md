@@ -2,10 +2,6 @@
 title: "cool stuff"
 ---
 
-# friends on the web
-
-- [Invicta Fortis](https://invictafortis.net/)
-
 # music
 
 A mix of local artists and bigger artists that I enjoy
