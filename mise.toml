@@ -9,9 +9,13 @@ CLIENT_SECRET = { required = "Set CLIENT_SECRET to your Spotify App Client Secre
 description = "Install project dependencies"
 run = "bundle install"
 
-[tasks.server]
-description = "Start jekyll server"
+[tasks.prod]
+description = "Start jeyll prod server"
 run = "bundle exec jekyll serve"
+
+[tasks.dev]
+description = "Start jekyll dev server"
+run = "bundle exec jekyll serve --drafts"
 
 [tasks.update-vinyls]
 description = "Fetch vinyl cover art from Spotify API"
