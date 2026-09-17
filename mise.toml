@@ -1,6 +1,10 @@
 [tools]
 ruby = "3"
 
+[env]
+CLIENT_ID = { required = "Set CLIENT_ID to your Spotify App Client ID in mise.local.toml" }
+CLIENT_SECRET = { required = "Set CLIENT_SECRET to your Spotify App Client Secret in mise.local.toml" }
+
 [tasks.install]
 description = "Install project dependencies"
 run = "bundle install"
@@ -8,3 +12,7 @@ run = "bundle install"
 [tasks.server]
 description = "Start jekyll server"
 run = "bundle exec jekyll serve"
+
+[tasks.update-vinyls]
+description = "Fetch vinyl cover art from Spotify API"
+run = "ruby scripts/fetch_spotify_albums.rb src/_data/vinyls.yml"

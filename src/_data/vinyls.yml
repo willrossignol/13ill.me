@@ -22,7 +22,7 @@
   image_url: https://i.scdn.co/image/ab67616d00004851661d019f34569f79eae9e985
 - artist: Jordan Ward
   name: Forward
-  image_url: https://i.scdn.co/image/ab67616d0000485117696caf00b6e0ac16cbbba4
+  image_url: https://i.scdn.co/image/ab67616d00004851a9fda7658696fa71fe8cb68e
 - artist: Kali Uchis
   name: Isolation
   image_url: https://i.scdn.co/image/ab67616d0000485190b4e1905b1fc48c537ec053
@@ -44,18 +44,24 @@
 - artist: Mac Miller
   name: Circles
   image_url: https://i.scdn.co/image/ab67616d00004851d9d8f1a08476cd347fbea313
+- artist: Olivia Dean
+  name: The Art of Loving
+  image_url: https://i.scdn.co/image/ab67616d000048519a336bfb6d40bbd90a507417
 - artist: Outkast
   name: Stankonia
-  image_url: https://i.scdn.co/image/ab67616d00004851153b3d6495031cb813a7451c
+  image_url: https://i.scdn.co/image/ab67616d000048512fb1d5ecf92758467683dabe
 - artist: Public Enemy
   name: Fear of a Black Planet
   image_url: https://i.scdn.co/image/ab67616d000048512e3d1de8b2f61a477ae1ed6c
+- artist: Sade
+  name: Promise
+  image_url: https://i.scdn.co/image/ab67616d00004851584302fee10c0d0a12c40c97
 - artist: Sampha
   name: Lahai
-  image_url: https://i.scdn.co/image/ab67616d00004851791bcfd8ae1149dbb2375991
+  image_url: https://i.scdn.co/image/ab67616d0000485165fa072296480cea19a38cd0
 - artist: Sampha
   name: Process
-  image_url: https://i.scdn.co/image/ab67616d0000485172d10386e7f4918a1740bd78
+  image_url: https://i.scdn.co/image/ab67616d00004851ab6b9fb78a5506e4b4d40429
 - artist: The SteelDrivers
   name: The SteelDrivers
   image_url: https://i.scdn.co/image/ab67616d000048512b7884e6aee93b07b5d76f07
@@ -82,7 +88,7 @@
   image_url: https://i.scdn.co/image/ab67616d000048518940ac99f49e44f59e6f7fb3
 - artist: Tyler, the Creator
   name: Cherry Bomb
-  image_url: https://i.scdn.co/image/ab67616d0000485137906edcfbfde42b203097f2
+  image_url: https://i.scdn.co/image/ab67616d00004851e4bf0d3d9e0224a30ca5f665
 - artist: Tyler, the Creator
   name: Wolf
   image_url: https://i.scdn.co/image/ab67616d00004851913f492347e1585748450855

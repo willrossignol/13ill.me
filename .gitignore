@@ -2,3 +2,4 @@
 **/.jekyll-cache
 **/.DS_Store
 **/.env
+*.local.*
