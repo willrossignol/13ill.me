@@ -2,6 +2,7 @@
 title: Attention Economy Rant
 author: William Rossignol
 tags: rant
+description: A rant about the state of the attention economy
 ---
 
 ### Beware the attention economy
