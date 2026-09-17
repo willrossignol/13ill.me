@@ -1,0 +1,10 @@
+[tools]
+ruby = "3"
+
+[tasks.install]
+description = "Install project dependencies"
+run = "bundle install"
+
+[tasks.server]
+description = "Start jekyll server"
+run = "bundle exec jekyll serve"
