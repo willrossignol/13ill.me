@@ -5,18 +5,21 @@
 - artist: Black Country, New Road
   name: Forever Howlong
   image_url: https://i.scdn.co/image/ab67616d00004851876f720551132b50c9232fad
+  url: https://blackcountrynewroad.bandcamp.com/album/forever-howlong
 - artist: Colter Wall
   name: Colter Wall
   image_url: https://i.scdn.co/image/ab67616d0000485133a9bf581d86e303313771d6
 - artist: Daniel Caesar
   name: Never Enough
   image_url: https://i.scdn.co/image/ab67616d000048517c68face1dc58127f3a7b1cc
+  url: https://danielcaesarneverenough.bandcamp.com/album/never-enough-explicit
 - artist: Dijon
   name: Baby
   image_url: https://i.scdn.co/image/ab67616d00004851fd69099343fa7827e78cca4b
 - artist: Geese
   name: Getting Killed
   image_url: https://i.scdn.co/image/ab67616d0000485145e82ae0372a50834825c018
+  url: https://geesebandnyc.bandcamp.com/album/getting-killed
 - artist: Gorillaz
   name: Plastic Beach
   image_url: https://i.scdn.co/image/ab67616d00004851661d019f34569f79eae9e985
@@ -29,12 +32,14 @@
 - artist: Kenny Beats
   name: Louie
   image_url: https://i.scdn.co/image/ab67616d00004851419c45440b96b77a96827db1
+  url: https://kennybeats.bandcamp.com/album/louie
 - artist: King Crimson
   name: In the Court of the Crimson King
   image_url: https://i.scdn.co/image/ab67616d00004851da7b326bd7ffa7b6b95b0660
 - artist: La patente
   name: Le cirque des mal-aimés
   image_url: https://i.scdn.co/image/ab67616d00004851829ae5b18f997689a2d621aa
+  url: https://lapatente.bandcamp.com/album/le-cirque-des-mal-aim-s
 - artist: Little Simz
   name: Sometimes I Might Be Introvert
   image_url: https://i.scdn.co/image/ab67616d00004851aede85ed28c2237a33b63dba
@@ -59,15 +64,19 @@
 - artist: Sampha
   name: Lahai
   image_url: https://i.scdn.co/image/ab67616d0000485165fa072296480cea19a38cd0
+  url: https://sampha.bandcamp.com/album/lahai
 - artist: Sampha
   name: Process
   image_url: https://i.scdn.co/image/ab67616d00004851ab6b9fb78a5506e4b4d40429
+  url: https://sampha.bandcamp.com/album/process-bonus-edition
 - artist: The SteelDrivers
   name: The SteelDrivers
   image_url: https://i.scdn.co/image/ab67616d000048512b7884e6aee93b07b5d76f07
+  url: https://thesteeldrivers.bandcamp.com/album/the-steeldrivers
 - artist: Thee Sacred Souls
   name: Thee Sacred Souls
   image_url: https://i.scdn.co/image/ab67616d000048514bc05e5b1e506a6acea17148
+  url: https://theesacredsouls.bandcamp.com/album/thee-sacred-souls
 - artist: Turnstile
   name: Never Enough
   image_url: https://i.scdn.co/image/ab67616d00004851e6b88d3e4886ae3a17621c53
@@ -98,4 +107,4 @@
 - artist: Wednesday
   name: Bleeds
   image_url: https://i.scdn.co/image/ab67616d0000485179cc56467c944a260be5c2a9
-  url: https://www.wednesday.band/
+  url: https://wednesdayband.bandcamp.com/album/bleeds
