@@ -2,6 +2,7 @@
 title: Screen Rant
 author: William Rossignol
 tags: rant
+description: A plea against social media and addictive technology
 ---
 
 This is an excerpt from my Notes app. I think I was just doomscrolling on Instagram and 
